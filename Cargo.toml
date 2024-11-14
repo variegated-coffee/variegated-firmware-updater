@@ -1,0 +1,13 @@
+[package]
+name = "variegated-serial-updater"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serialport = "4.5.0"
+serde = { version = "1.0.209", features = ["derive"] }
+postcard = { version = "1.0.10", features = ["use-std"] }
+serde-big-array = "0.5.1"
+crc = "3.2.1"
+structopt = "0.3.26"
+uftwo = "0.1.3"
